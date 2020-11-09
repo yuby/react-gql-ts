@@ -1,13 +1,46 @@
 # fullstack react-gql-ts
 
 
-- [적용] Typescript
-- [적용] Nodejs
-- [적용] MongoDB
-- [적용] TypeORM
-- [적용] eslin/airbnb-typescript
+- [v] Typescript
+- [v] Nodejs
+- [v] MongoDB
+- [v] [TypeORM](https://typeorm.io/#/)
+- [v] [TypeORM with mongodb](https://github.com/typeorm/typeorm/blob/master/docs/mongodb.md)
+- [v] eslin/airbnb-typescript
+- [v] prettier
 - URQL
 - Redis
 - Nextjs
 - TypeGraphQL
 - React
+
+## VSCODE Short cut
+
+- formmating: cmd + shift + f
+- duplication cursor: cmd + option + arrow
+- line delete:  cmd + x
+- line copy: option +  shift + arrow
+
+
+## Setup
+
+```
+npx typeorm init --database mongodb
+```
+
+configuration >> ormconfig.json
+
+
+## mongodb
+
+Install guide https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+
+Start
+```
+brew services start mongodb-community
+```
+
+Stop
+```
+brew services stop mongodb-community
+```
